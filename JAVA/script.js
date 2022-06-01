@@ -21,7 +21,7 @@ var goody = 45;
 
 alert("price");//this will display the sum of the tax multiplied by the new price.
 
-let newprice = 50; // this will have no value but an error bcos a variable with the name has already been created
+ newprice = 50; // this will have no value but an error bcos a variable with the name has already been created
 
 let newprices = 50; // this will run
 
@@ -31,3 +31,8 @@ let BOY = "Gospel"
 let favour; // declared but undefined
 
 favour = "disturbing" // now defined
+
+ a = "abi";
+a.length()
+
+.getElementById() // this is a method
