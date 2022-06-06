@@ -14,4 +14,5 @@ let africanCountries = [
 
 for (let a = 0; a < africanCountries.length; a++) {
   console.log("i am" + africanCountries[a] + "a country in africa");
+  alert("i am" + africanCountries[a] + "a country in africa");
 }
