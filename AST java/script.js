@@ -61,7 +61,7 @@ alert(null && 5); // this will return null because null is a false value.
 alert (2 && 45 && null && 12 && 0); // this will be null because it has seen a falsy value.(NULL).
 
 
-// NOT (!) it is a uninary operator; this means it takes one operand, which returns the inverse value1
+// NOT (!) it is a urinary operator; this means it takes one operand, which returns the inverse value1
 
 let a = true;
 
@@ -146,7 +146,7 @@ while (b) {
 
 // do..... while loop
 do {
-    loop body
+    //loop body
 } while (condition);
 
 // the loop will first execute the body, then check the condition, and while its truthy execute i again and again.
