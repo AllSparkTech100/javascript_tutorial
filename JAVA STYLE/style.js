@@ -16,16 +16,20 @@
 // document.getElementById("head").style.fontSize = "10rem";
 // document.getElementById("head").textContent = customerName;
 // document.getElementById("head").style.textTransform = "uppercase"
-// document.getElementById("solve").textContent+= sI
 
 //solving into html
+// let p = prompt("Input principal value");
+// let r = prompt("Input value for rate");
+// let t = prompt("Input value for time");
 
-let P = 2500;
-let R = 10;
-let T = 2;
-let SI =( P * R  * T )/ 100;
-alert(SI)
+// document.getElementById("box").textContent += p;
+// document.getElementById("bx").textContent += r;
+// document.getElementById("bo").textContent += t;
 
+// function calculator(){
+//     let simple = (p * r * t) / 100;
+//     document.getElementById("result").textContent += simple;
+// }
 
 
 
