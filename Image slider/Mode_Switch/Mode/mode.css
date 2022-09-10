@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+/* light color mode */
+
+:root{
+    --clr-background: #eceff1;
+    --clr-base: #ffffff;
+    --clr-primary: #aa00ff;
+    --clr-gray: #263238;
+    font-size: 16px;
+    border-radius: 0.2em;
+}
+
+
+/* dark mode colors */
+.dark-mode{
+    --clr-background: #263238;
+    --clr-base: black;
+    --clr-primary: #69f0ae;
+    --clr-gray: #e0f7fa;
+}
+
+.wrapper-color-switch{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.color-switch{
+    width: 4em;
+    height: 2em;
+    border-radius: 10em;
+    background: var(--clr-base);
+    border: 2px solid var(--clr-primary) ;
+    position: absolute;
+    cursor: pointer;
+}
+
+.color-switch-toggle{
+    width: 1.6em;
+    height: 1.6em;
+    background: var(--clr-primary);
+    position: absolute;
+    border-radius: 10em;
+    top: 0.1em;
+    left: 0.1em;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.color-switch:before{
+    content: "Light Mode On";
+    position: absolute;
+    display: inline-block;
+    width: 12em;
+    left: -8em;
+    top: 0.4em;
+}
+
+#input-color-switch:checked ~ label .color-switch-toggle{
+    transform: translateX(2em);
+}
+
+#input-color-switch:checked ~ .color-switch::before {
+    content: "Dark Mode On";
+}
+
+#input-color-switch{
+   display: none;
+}
+
